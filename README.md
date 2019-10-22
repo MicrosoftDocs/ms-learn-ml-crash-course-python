@@ -1,64 +1,34 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
----
+# ML Crash Course Python Programming Exercises
 
-# Official Microsoft Sample
+Welcome! In this library we have the Python programming exercises for the ML Crash Course.
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+These notebooks contains the programming exercises used in the [ML Crash Course](https://docs.microsoft.com/learn/paths/ml-crash-course). While you could explore the examples without following the tutorial, it's strongly recommended that you follow along with the course on Microsoft Learn.
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+## Getting started
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+If you aren't already completing ML Crash Course you can start by [clicking here](https://docs.microsoft.com/learn/paths/ml-crash-course) to open the learning path.
 
-Give a short description for your sample here. What does it do and why is it important?
+### Setting up Azure Notebooks
 
-## Contents
+* Go to [Azure Notebooks](https://notebooks.azure.com/home/projects#) and create a new project.
+* Click on Upload GitHub Repo.
+* Click on the "GitHub repository" box and paste in ```MicrosoftDocs/mslearn-intro-to-ai-concepts```.
+* Click the Import button.
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+## Troubleshooting
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+Below are some common issues and their solutions when completing the exercises in this Azure Notebook.
 
-## Prerequisites
+### Links to the exercises don't work
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
+The links to the exercises at AI School assume you have set up your library, and kept the library ID as 'Python' - if you haven't then the links won't work.
 
-## Setup
+#### Solution
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+* Click [here](https://notebooks.azure.com/home/libraries) to go to your libraries
+* Right clicking on your library and select __Settings__
+* Change the Library ID back to Python.
 
-## Runnning the sample
+![Library Rename](https://aiplatformstestgeneral.blob.core.windows.net/aiplatformassets/knovuecdl43j/4nX9egSakg66EmcmcKiS2K/d8015f4ac4ce2e3183d18d4489e9d5f5/library_rename.png)
 
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
-
-## Key concepts
-
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
-
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+You can also just go to your library and right click the programming exercise you wish to do and click '__Run__'
